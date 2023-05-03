@@ -1,0 +1,31 @@
+/* Styles text globally for each page */
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --eerie-black: #1e1e1e;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 16px;
+  --font-size-s: 12px;
+ 
+  --font-family-sansita: "Sansita", Helvetica;
+  --font-family-scope_one: "Scope One", Helvetica;
+}
+.sansita-normal-eerie-black-16px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-sansita);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.scopeone-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-scope_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+

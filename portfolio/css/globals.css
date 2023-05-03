@@ -1,0 +1,65 @@
+/* Helps with document styling */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* Imports font */
+@import url("https://fonts.googleapis.com/css?family=Sansita:400|Scope+One:400");
+
+
+
+/* Styles screen globally */
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+/* Styles container flex globally */
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+/* Styles border globally */
+* {
+  box-sizing: border-box;
+}
+/* Styles first nav bar globally */
+.nav {
+  background-color: transparent;
+  height: 34px;
+  mix-blend-mode: normal;
+  position: absolute;
+}
+/* Styles second nav bar globally */
+.nav-bar {
+  background-color: var(--white);
+  height: 34px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+}

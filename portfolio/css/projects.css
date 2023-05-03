@@ -1,0 +1,266 @@
+/* screen - projects */
+/* Style for projects page */
+.projects {
+  background-color: var(--white);
+  border: 1px none;
+  height: 932px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 430px;
+}
+/* Style for header  */
+.projects .header {
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+/* Style for nav 1  */
+.projects .nav-1 {
+  left: 171px;
+  top: 87px;
+  width: 264px;
+}
+
+.projects .nav-bar-1 {
+  width: 264px;
+}
+
+.projects .about-- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 61px;
+}
+/* sets hover scale in nav bar  */
+.projects .about--:hover {
+  transform: scale(0.9); 
+}
+
+.projects .projects-- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.projects .projects--:hover {
+  transform: scale(0.9); 
+}
+
+.projects .contact-me-- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 203px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 49px;
+}
+
+.projects .contact-me--:hover {
+  transform: scale(0.9); 
+}
+
+.projects .logo-1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+
+.projects .portfoliologo-1 {
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+/* Style for second nav  */
+.projects .nav-2 {
+  left: 0px;
+  top: 898px;
+  width: 430px;
+}
+
+.projects .nav-bar-2 {
+  width: 430px;
+}
+
+.projects .about- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+/* Scales hover in nav bar 2  */
+.projects .about-:hover {
+  transform: scale(1.1);
+}
+
+.projects .projects- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 87px;
+}
+
+.projects .projects-:hover {
+  transform: scale(1.1);
+}
+
+.projects .contact-me- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 331px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 80px;
+}
+
+.projects .contact-me-:hover {
+  transform: scale(1.1);
+}
+/* Styles container 4 */
+.projects .container4 {
+  background-color: var(--alto);
+  height: 72px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 142px;
+  width: 430px;
+}
+/* Styles for p3 */
+.projects .p3 {
+  background-color: transparent;
+  height: auto;
+  left: 21px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 152px;
+  width: 378px;
+}
+/* Styles git hub image */
+.projects .github {
+  background-color: transparent;
+  height: 168px;
+  left: 68px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 253px;
+  width: 300px;
+}
+/* Styles container 5 */
+.projects .container5 {
+  background-color: var(--alto);
+  height: 100px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 630px;
+  width: 430px;
+}
+/* Styles h2 */
+.projects .h2 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-scope_one);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 640px;
+  width: 314px;
+}
+/* Styles links */
+.projects .git-hub-link {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-scope_one);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 134px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 432px;
+  width: 169px;
+}

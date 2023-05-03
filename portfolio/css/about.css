@@ -1,0 +1,289 @@
+/* screen - about */
+/* Style for about page */
+.about {
+  background-color: var(--white);
+  border: 1px none;
+  height: 932px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 430px;
+}
+/* Style for header  */
+.about .header-about {
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+/* Style for nav  */
+.about .nav-about {
+  left: 171px;
+  top: 87px;
+  width: 264px;
+}
+
+.about .nav-bar- {
+  width: 264px;
+}
+
+.about .about- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 61px;
+}
+/* sets hover scale in nav bar  */
+.about .about-:hover {
+  transform: scale(0.9); 
+}
+
+.about .projects- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.about .projects-:hover {
+  transform: scale(0.9); 
+}
+
+.about .contact-me- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 203px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 49px;
+}
+
+.about .contact-me-:hover {
+  transform: scale(0.9); 
+}
+
+.about .logo-about {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+
+.about .portfoliologo-1-about{
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+/* Style for second nav  */
+.about .nav-2 {
+  left: 0px;
+  top: 898px;
+  width: 430px;
+}
+
+.about .nav-bar-2 {
+  width: 430px;
+}
+
+.about .about-2 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+/* Scales hover in nav bar 2  */
+.about .about-2:hover {
+  transform: scale(1.1);
+}
+
+.about .projects-2 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 87px;
+}
+
+.about .projects-2:hover {
+  transform: scale(1.1);
+}
+
+.about .contact-me-2 {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 331px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 80px;
+}
+
+.about .contact-me-2:hover {
+  transform: scale(1.1);
+}
+/* Styles container 1 */
+.about .container1 {
+  background-color: var(--alto);
+  height: 147px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 147px;
+  width: 430px;
+}
+/* Styles h1  */
+.about .h1 {
+  background-color: transparent;
+  height: auto;
+  left: 21px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 158px;
+  width: 390px;
+}
+/* Styles container 2  */
+.about .container2 {
+  background-color: var(--alto);
+  border-radius: 40px;
+  height: 401px;
+  left: 37px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 361px;
+  width: 170px;
+}
+/* Styles container 3  */
+.about .container3 {
+  background-color: var(--alto);
+  border-radius: 40px;
+  height: 401px;
+  left: 241px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 361px;
+  width: 170px;
+}
+/* Styles h2  */
+.about .h2 {
+  background-color: transparent;
+  height: auto;
+  left: 69px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 385px;
+  width: 102px;
+}
+/* Styles p1 */
+.about .p1 {
+  background-color: transparent;
+  height: auto;
+  left: 63px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 424px;
+  width: 124px;
+}
+/* Styles h3  */
+.about .h3 {
+  background-color: transparent;
+  height: auto;
+  left: 279px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 382px;
+  white-space: nowrap;
+  width: 95px;
+}
+/* Styles p2 */
+.about .p2 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-scope_one);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 257px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 432px;
+  width: 142px;
+}

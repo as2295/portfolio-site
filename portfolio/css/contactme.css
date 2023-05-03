@@ -1,0 +1,240 @@
+/* screen - contactme */
+/* Style for contact me page */
+.contactme {
+  background-color: var(--white);
+  border: 1px none;
+  height: 932px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 430px;
+}
+/* Style for header  */
+.contactme .header- {
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+/* Style for nav 1  */
+.contactme .nav-1 {
+  left: 171px;
+  top: 87px;
+  width: 264px;
+}
+
+.contactme .nav-bar-2 {
+  width: 264px;
+}
+
+.contactme .about- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 61px;
+}
+/* sets hover scale in nav bar  */
+.contactme .about-:hover {
+  transform: scale(0.9); 
+}
+
+.contactme .projects- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 53px;
+}
+
+.contactme .projects-:hover {
+  transform: scale(0.9); 
+}
+
+.contactme .contact-me- {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 203px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 49px;
+}
+
+.contactme .contact-me-:hover {
+  transform: scale(0.9); 
+}
+
+.contactme .logo-1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+
+.contactme .portfoliologo-1 {
+  background-color: transparent;
+  height: 126px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 189px;
+}
+/* Style for second nav  */
+.contactme .nav-2 {
+  left: 0px;
+  top: 898px;
+  width: 430px;
+}
+
+.contactme .nav-bar-2 {
+  width: 430px;
+}
+
+.contactme .about {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+/* Scales hover in nav bar 2  */
+.contactme .about:hover {
+  transform: scale(1.1);
+}
+
+.contactme .projects {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: 87px;
+}
+
+.contactme .projects:hover {
+  transform: scale(1.1);
+}
+
+.contactme .contact-me {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 331px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 80px;
+}
+
+.contactme .contact-me:hover {
+  transform: scale(1.1);
+}
+/* Styles container 5 */
+.contactme .container5- {
+  background-color: var(--alto);
+  height: 280px;
+  left: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 434px;
+  width: 360px;
+}
+/* Styles p4 */
+.contactme .p4- {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 453px;
+  width: 171px;
+}
+/* Styles p5 */
+.contactme .p5- {
+  background-color: transparent;
+  height: auto;
+  left: 112px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 599px;
+  width: 215px;
+}
+/* Styles for mouse and key image */
+.contactme .mouseandkey- {
+  background-color: transparent;
+  cursor: pointer;
+  height: 232px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 164px;
+  transition: all 0.2s ease;
+  width: 430px;
+}
+/* Styles animation for mouse and key image */
+.contactme .mouseandkey-:hover {
+  transform: scale(0.9); 
+}
